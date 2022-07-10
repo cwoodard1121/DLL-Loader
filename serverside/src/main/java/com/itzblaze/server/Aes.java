@@ -9,8 +9,6 @@ import java.util.Arrays;
 import java.util.Base64;
 
 public class Aes {
-
-
     public static String encrypt(final String strToEncrypt, final String secret) {
         try {
             byte[] key;
