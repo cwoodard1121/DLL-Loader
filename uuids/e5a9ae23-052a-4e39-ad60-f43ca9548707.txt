@@ -1,0 +1,1 @@
+{"discordId":"none","uuid":"e5a9ae23-052a-4e39-ad60-f43ca9548707","scripts":["test","adbot","onchatmessage"],"isActivated":true}
