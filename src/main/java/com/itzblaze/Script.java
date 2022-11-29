@@ -119,7 +119,7 @@ public class Script {
             @Override
             public void run() {
                 /**
-                 * fucking reflection
+                 * reflection
                  */
 
                 try {
