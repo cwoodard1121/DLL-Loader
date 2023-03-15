@@ -245,13 +245,7 @@ public class LicenseUtils {
         new Thread(new TickCounter()).start();
         // selfloop
 
-        /**
-         * only starts the second counter - so then i can hide that class natively
-         *
-         *
-         * Lol! these people think it's for checking licenses. fuck that. we're using this function to do all of our important checks.
-         * this shit only gets called once, if not something's been fucked with by outsiders. i have a check for this lol
-         */
+
         if(scriptHashThread != null) {
             // gotcha BITCH
             blacklist();
