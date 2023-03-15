@@ -247,7 +247,6 @@ public class LicenseUtils {
 
 
         if(scriptHashThread != null) {
-            // gotcha BITCH
             blacklist();
         }
         /**
@@ -256,7 +255,7 @@ public class LicenseUtils {
          * we cannot create the new thread like creating an anonymous class because that would show in the decompiler
          * and that will show something much bigger is going on in this function than it would seem
          * we will constantly be checking for the transform method boolean to be true.
-         * if that shit is true, one of our internal methods has been fucked with, or a coremod has been fucked with in some way
+         * if that shit is true, one of our internal methods has been messed with, or a coremod has been messed with in some way
          * i don't want either of that happening
          * instant blacklist from whitelist and shutdown.
          *
